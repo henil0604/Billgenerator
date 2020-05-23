@@ -1,0 +1,110 @@
+.name{
+    display: flex;
+    font-size: 18px;
+}
+
+#doctorName{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 17px;
+}
+.date{
+    display: flex;
+    font-size: 18px;
+}
+
+#date{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.nameDiv{
+    margin: 0;
+}
+
+.dateDiv{
+    margin-left: 30px;
+}
+.header{
+    display: flex;
+}
+#place{
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.placeDiv{
+    margin-left: 30px;
+}
+.place{
+    display: flex;
+    font-size: 18px;
+}
+
+.error_container{
+    transition: 1s;
+    font-family: 'Gaegu', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.error_container h1{
+    transition: 1s;
+    font-size: 150px;
+    letter-spacing: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.error_container p{
+    transition: 1s;
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 700px){
+
+    .error_container{
+        transition: 1s;
+        font-family: 'Gaegu', cursive;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .error_container h1{
+        transition: 1s;
+        font-size: 50px;
+        letter-spacing: 6px;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .error_container p{
+        transition: 1s;
+        font-size: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px){
+    .error_container h1{
+        transition: 1s;
+        font-size: 50px;
+        letter-spacing: 6px;
+        margin-right: 150px;
+        margin-left: 150px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+}

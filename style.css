@@ -1,0 +1,76 @@
+
+#doctorDiv{
+    display: flex;
+}
+#productDiv{
+    display: flex;
+}
+
+#productInput{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    padding: 4px;
+}
+
+#productInputLow{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 4px;
+}
+
+.PNQDiv{
+    display: flex;
+}
+
+#rate{
+    width:110px;
+}
+#qty{
+    width:110px;
+}
+#gst{
+    width: 110px;
+}
+#amount{
+    width: 110px;
+}
+#doctorNameInput{
+    width: 250px;
+    margin-left: 20px;
+}
+#mainImformation{
+    display: flex;   
+}
+#placeDiv{
+    display: flex;
+    margin-left: 20px;
+}
+#dateDiv{
+    display: flex;
+    margin-left: 20px;
+}
+#total{
+    width: 200px;
+    margin-left: 950px;
+    text-align: center;
+}
+#calc{
+    margin-left: 500px;
+}
+.qty{
+    width: 80px;
+}
+.free{
+    width: 80px;
+}
+.gst{
+    width: 80px;
+}
+.rate{
+    width: 80px;
+}
+.amount{
+    width: 100px;
+}
