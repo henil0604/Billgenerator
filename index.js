@@ -3,7 +3,7 @@ var width = window.innerWidth;
 var selectDiv = document.getElementById('selectDiv')
 console.log(width);
 
-if (width < 550) {
+if (width < 800) {
     selectDiv.innerHTML = `
     <select id="productInputLow" class="from-control mx-4">
             <option value="PRICEPH 200">PRICEPH 200</option>
