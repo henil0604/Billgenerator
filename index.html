@@ -16,8 +16,24 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Automatic Bill Generator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container my-5">
-        <div id="mainImformation my-3">
+        <div id="mainImformation">
             <div id="doctorDiv">
                 <h5 class="text-muted">Doctor Name:</h5>
                 <input type="text" class="form-control" id="doctorNameInput">
@@ -36,26 +52,6 @@
         <div id="productDiv">
             <h5 class="text-muted">Products:</h5>
             <div id="selectDiv" class="form-group">
-                <select multiple id="productInput" class="from-control mx-4">
-                    <option value="PRICEPH 200">PRICEPH 200</option>
-                    <option value="OMIPOD 200">OMIPOD 200</option>
-                    <option value="ZM CV">ZM CV</option>
-                    <option value="ITRAAZ 100">ITRAAZ 100</option>
-                    <option value="ITRAAZ 200">ITRAAZ 200</option>
-                    <option value="ZAN R 20">ZAN R 20</option>
-                    <option value="ZAN RD">ZAN RD</option>
-                    <option value="AZAN PARA">AZAN PARA</option>
-                    <option value="AZAN SP">AZAN SP</option>
-                    <option value="MITHICOB MD">MITHICOB MD</option>
-                    <option value="HISTAFINE M">HISTAFINE M</option>
-                    <option value="HISTAFINE">HISTAFINE</option>
-                    <option value="D STAR GEL">D STAR GEL</option>
-                    <option value="LULITHUS CREAM">LULITHUS CREAM</option>
-                    <option value="KERAMAX 30 TAB">KERAMAX 30 TAB</option>
-                    <option value="KERAMAX 15 TAB">KERAMAX 15 TAB</option>
-                    <option value="MITHICOB PN">MITHICOB PN</option>
-                    <option value="ROSIFINE TRIO">ROSIFINE TRIO</option>
-                </select>
                 <!-- <button class="btn btn-primary btn-sm mb-5" onclick="add()">Add</button> -->
             </div>
         </div>
