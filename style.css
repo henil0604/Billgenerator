@@ -1,4 +1,6 @@
-
+#navbar{
+    width: 100%;
+}
 #doctorDiv{
     display: flex;
 }
